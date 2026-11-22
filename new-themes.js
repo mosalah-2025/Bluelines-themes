@@ -297,30 +297,40 @@ const ALL_CARDS = [
   {theme:'saudi',cat:'fashion',color:'light',name:'Saudi Men Fashion',url:'https://saudi-men-fashion.myeasyorders.com/',img:'https://files.easy-orders.net/1794850971128098992.webp'},
   {theme:'saudi',cat:'electronics',color:'light',name:'Saudi Electronics',url:'https://saudi-electronics.myeasyorders.com/',img:'https://files.easy-orders.net/1794850966656300086.webp'},
   {theme:'saudi',cat:'fashion',color:'light',name:'Saudi Fashion',url:'https://saudi-fashion.myeasyorders.com/',img:'https://files.easy-orders.net/1794850971303790035.webp'},
-  {theme:'saudi',cat:'shoes',color:'light',name:'Saudi Bags',url:'https://saudi-bags.myeasyorders.com/',img:'https://files.easy-orders.net/1794850963972321802.webp'}
+  {theme:'saudi',cat:'shoes',color:'light',name:'Saudi Bags',url:'https://saudi-bags.myeasyorders.com/',img:'https://files.easy-orders.net/1794850963972321802.webp'},
+
+  {theme:'outlet-line',cat:'books',color:'light',name:'Outline Books',url:'https://outline-books.myeasyorders.com',bestSeller:true,img:'https://files.easy-orders.net/1795370025313254241.webp'},
+  {theme:'outlet-line',cat:'jewelry',color:'light',name:'Outline Jewelry',url:'https://outline-jewelry.myeasyorders.com',bestSeller:true,img:'https://files.easy-orders.net/1795370039868104287.webp'},
+  {theme:'outlet-line',cat:'fashion',color:'light',name:'Outline Fashion',url:'https://outline-fashion.myeasyorders.com',bestSeller:true,img:'https://files.easy-orders.net/1795370038695965749.webp'},
+  {theme:'outlet-line',cat:'food',color:'light',name:'Outline Coffee',url:'https://outline-coffee.myeasyorders.com',bestSeller:true,img:'https://files.easy-orders.net/1795370039819376653.webp'},
+  {theme:'outlet-line',cat:'furniture',color:'light',name:'Outline Decore',url:'https://outline-decore.myeasyorders.com',bestSeller:true,img:'https://files.easy-orders.net/1795370037259232802.webp'},
+  {theme:'outlet-line',cat:['digital','electronics'],color:'dark',name:'Outline Gamers',url:'https://outline-gamers.myeasyorders.com',bestSeller:true,img:'https://files.easy-orders.net/1795370038426409312.webp'},
+  {theme:'outlet-line',cat:'shoes',color:'light',name:'Outline Shoes',url:'https://outline-shoes.myeasyorders.com',bestSeller:true,img:'https://files.easy-orders.net/1795370033546426927.webp'},
+  {theme:'outlet-line',cat:'toys',color:'light',name:'Outline Toys',url:'https://outline-toys.myeasyorders.com',bestSeller:true,img:'https://files.easy-orders.net/1795370037426764572.webp'}
+];
+const THEMES = [
+  {id:'nature',label:'Nature'},
+  {id:'hype',label:'Hype'},
+  {id:'elite',label:'Elite'},
+  {id:'phoenix',label:'Phoenix'},
+  {id:'pearl',label:'Pearl'},
+  {id:'blast',label:'Blast'},
+  {id:'volta',label:'Volta'},
+  {id:'sharp',label:'Sharp'},
+  {id:'prime',label:'Prime'},
+  {id:'seven',label:'Seven'},
+  {id:'nono',label:'Nono'},
+  {id:'convert',label:'Convert'},
+  {id:'pure',label:'Pure'},
+  {id:'void',label:'Void'},
+  {id:'easyfood',label:'Easyfood'},
+  {id:'vantage',label:'Vantage'},
+  {id:'lines',label:'Lines'},
+  {id:'care',label:'Care'},
+  {id:'saudi',label:'Saudi'},
+  {id:'outlet-line',label:'Outlet Line'}
 ];
 
-const THEMES = [
-  {id:"nature",label:"Nature"},
-  {id:"hype",label:"Hype"},
-  {id:"elite",label:"Elite"},
-  {id:"phoenix",label:"Phoenix"},
-  {id:"pearl",label:"Pearl"},
-  {id:"blast",label:"Blast"},
-  {id:"volta",label:"Volta"},
-  {id:"sharp",label:"Sharp"},
-  {id:"prime",label:"Prime"},
-  {id:"seven",label:"Seven"},
-  {id:"nono",label:"Nono"},
-  {id:"convert",label:"Convert"},
-  {id:"pure",label:"Pure"},
-  {id:"void",label:"Void"},
-  {id:"easyfood",label:"Easyfood"},
-  {id:"vantage",label:"Vantage"},
-  {id:"lines",label:"Lines"},
-  {id:"care",label:"Care"},
-  {id:"saudi",label:"Saudi"}
-];
 
 const COLORS = [
   {id:"dark",label:"Dark Mode",dot:"dot-dark"},
